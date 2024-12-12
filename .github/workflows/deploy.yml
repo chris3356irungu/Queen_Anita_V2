@@ -32,8 +32,7 @@ jobs:
       run: npm install
 
     - name: Install FFmpeg
-      run: sudo apt-get install -y ffmpeg
-      run : apt-get update
+      run: sudo apt-get install -y ffmpeg,apt-get update
 
     - name: Start application with timeout
       run: |
